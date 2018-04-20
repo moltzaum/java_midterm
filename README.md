@@ -71,3 +71,9 @@ was persistent enough to make it work!
 
 Although my project was overall too complicated for what I was doing, I learned a lot from coding it. Throughout my project I was
 conscious about design decisions, yet at the same time tried to strech the limit of my abilities.
+
+EDIT: I would give instructions on how to load the annotation processor, but I did this so long ago I forgot. A simple google search
+of "eclipse annotation processor" would probably help out. The project currently does not actually make use of the annotation processor
+since it would be a pretty bad idea to rely on.
+
+
