@@ -1,0 +1,45 @@
+start
+ ____________________
+/ Start:
+ /Load/ <file>
+ /New/ <listName>
+ /SortOptions/ <>
+ /List/ <>
+ /Exit/ <>
+____________________/
+end
+
+list
+ ____________________________________________________
+/ List:[%s]
+ /ElementCommands/
+ /Save/ <>
+ /Select/ <Name>
+ /Add/ <"movie":"tvshow"> <name>
+ /SortOptions/ <>
+ /Back/ <>
+_____________________________________________________/
+end
+
+sort options
+ ___________________________________________________________
+/ SortOptions:
+ params:
+ 	SortBy: %s
+ 	Excluded: %s
+ 
+ /SortBy/ <"title":"type":"ratings">
+ /Include/ <Type>
+ /Exclude/ <Type>
+ /Select/ <name>
+ /Back/ 
+___________________________________________________________/
+end
+
+item selection
+ _____________________________________
+/ List:[%s]/Selection:[%s]
+ /ElementCommands/
+ /Back/
+_____________________________________/
+end
